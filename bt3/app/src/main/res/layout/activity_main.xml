@@ -28,16 +28,15 @@
 
         <Button
             android:id="@+id/btnNhap"
-            android:layout_width="150dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nhap"
-            android:layout_marginLeft="125dp"/>
+            android:text="Nhap" />
 
         <Button
             android:id="@+id/btnKQ"
-            android:layout_width="147dp"
+            android:layout_width="match_parent"
+            android:enabled="false"
             android:layout_height="wrap_content"
-            android:text="KQ"
-            android:layout_marginLeft="125dp"/>
+            android:text="KQ" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

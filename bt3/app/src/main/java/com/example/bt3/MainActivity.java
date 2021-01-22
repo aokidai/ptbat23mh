@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         btnNhap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                btnKQ.setEnabled(true);
                 Intent i = new Intent(MainActivity.this,mh1.class);
                 startActivityForResult(i,999);
 
